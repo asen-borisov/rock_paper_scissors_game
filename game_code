@@ -38,7 +38,6 @@ elif choice == "2":
 
 import random
 
-
 cpu = [rock, paper, scissors]
 
 print("\nComputer:")
