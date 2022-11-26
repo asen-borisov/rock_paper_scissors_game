@@ -65,4 +65,5 @@ elif choice == "2" and comp == rock:
 elif choice == "2" and comp == scissors:
   print("draw")
 
-#test commit !
+#test commit
+#test commit_2
