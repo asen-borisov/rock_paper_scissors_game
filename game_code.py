@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -30,13 +32,12 @@ choice = input("What do you choose ? Type: \n0 - Rock\n1 - Paper\n2 - Scissors\n
 print("\nYour Choice: \n" )
 
 if choice == "0":
-  print(rock)
+    print(rock)
 elif choice == '1':
-  print(paper)
+    print(paper)
 elif choice == "2":
-  print(scissors)
+    print(scissors)
 
-import random
 
 cpu = [rock, paper, scissors]
 
@@ -45,25 +46,22 @@ comp = random.choice(cpu)
 print(comp)
 
 if choice == "0" and comp == scissors:
-  print("you win")
+    print("you win")
 elif choice == "0" and comp == paper:
-  print("you lose")
+    print("you lose")
 elif choice == "0" and comp == rock:
-  print("draw")
+    print("draw")
 
 if choice == "1" and comp == rock:
-  print("you win")
+    print("you win")
 elif choice == "1" and comp == scissors:
-  print("you lose")
+    print("you lose")
 elif choice == "1" and comp == paper:
-  print("draw")
+    print("draw")
   
 if choice == "2" and comp == paper:
-  print("you win")
+    print("you win")
 elif choice == "2" and comp == rock:
-  print("you lose")
+    print("you lose")
 elif choice == "2" and comp == scissors:
-  print("draw")
-
-#test commit
-#test commit_2
+    print("draw")
